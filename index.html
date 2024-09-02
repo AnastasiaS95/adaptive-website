@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adaptive Website</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <style>
+      @media (max-width: 768px) {
+        .header {
+        flex-direction: column;
+        }
+        .header__link {
+        margin: 10px 0;
+        }
+        }
+  </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__logo">Logo</div>
+      <nav class="header__nav">
+        <ul class="header__list">
+          <li class="header__item">
+            <a class="header__link" href="#">Home</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#">About</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="content">
+      <section class="content__intro">
+        <h1>Welcome to Adaptive Website</h1>
+        <p>
+          This is a responsive page with adaptive images, custom fonts, and a
+          favicon.
+        </p>
+      </section>
+      <section class="content__image">
+        <img src="images/anime-moon-landscape.jpg" alt="Responsive Image"
+        class="image">
+        <img src="images/digital-art-style-sky-landscape-with-moon.jpg" alt="Responsive Image"
+        class="image">
+        <img src="images/fantasy-style-lantern-for-islamic-ramadan-celebration.jpg" alt="Responsive Image"
+        class="image">
+        </section>
+        </main>
+    <footer class="footer">
+      <p>© 2024 Adaptive Website</p>
+    </footer>
+  </body>
+</html>
